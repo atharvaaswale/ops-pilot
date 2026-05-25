@@ -1,0 +1,18 @@
+pandas              # data wrangling
+numpy               # numerics
+scikit-learn        # TF-IDF, LogisticRegression, calibration, metrics
+joblib              # model persistence (models/tfidf_v1.joblib)
+datasets            # HuggingFace Bitext loader
+groq                # synthetic data generation via Groq API
+python-dotenv       # load GROQ_API_KEY from .env
+matplotlib          # confusion matrix, calibration plot
+seaborn             # nicer plots (optional, but handy)
+ipykernel
+jupyter
+fastapi
+uvicorn[standard]
+pydantic                # v2
+pydantic-settings       # for config.py
+sqlalchemy              # 2.x
+httpx                   # async HTTP client for Groq calls
+streamlit               # ops UI
